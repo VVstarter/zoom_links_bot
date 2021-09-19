@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+
+    zoom_links_bot:
+        container_name: zoom_links_bot
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
