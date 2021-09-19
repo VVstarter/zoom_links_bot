@@ -4,3 +4,5 @@ build:
        dockerfile: Dockerfile
        target: builder
     worker: Dockerfile
+run:
+  worker: python main.py
