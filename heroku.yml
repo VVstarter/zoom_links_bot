@@ -1,8 +1,7 @@
 build:
   docker:
-    release:
-       dockerfile: Dockerfile
-       target: builder
     worker: Dockerfile
 run:
-  worker: python main.py
+  worker:
+    command: python main.py
+    image: worker
